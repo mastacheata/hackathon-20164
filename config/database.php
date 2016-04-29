@@ -57,7 +57,7 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => $cleardb['host'],
-            'port'      => $cleardb['port'],
+            'port'      => array_get($cleardb, 'port', '3306'),
             'database'  => $cleardb['path'],
             'username'  => $cleardb['user'],
             'password'  => $cleardb['pass'],
