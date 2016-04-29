@@ -1,0 +1,11 @@
+title = "Sign up"
+url = "/"
+layout = "default"
+==
+{{ form_open({ request: 'onHandleSignup' }) }}
+Name: <input type="text" name="name"/>
+Address: <input type="text" name="address"/>
+City: <input type="text" name="city"/>
+Device Id: <input type="text" name="deviceId"/>
+<input type="submit" value="Sign up"/>
+{{ form_close() }}
