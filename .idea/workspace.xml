@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b2652b1-7ceb-495f-82e6-d44398266d7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/components/Map.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin,php.php" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/demo/pages/home-old.htm" afterPath="$PROJECT_DIR$/themes/demo/pages/home-old.htmlx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hackathon-20164.iws" />
@@ -470,7 +469,7 @@
       <option name="presentableId" value="Default" />
       <updated>1461948625821</updated>
       <workItem from="1461948627194" duration="6142000" />
-      <workItem from="1461957002484" duration="10904000" />
+      <workItem from="1461957002484" duration="11104000" />
     </task>
     <task id="LOCAL-00001" summary="DB details ClearDB">
       <created>1461953011958</created>
@@ -528,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461967327641</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Plugin.pho not conma php&#10;&#10;Add the Component">
+      <created>1461967958329</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1461967958329</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17046000" />
+    <option name="totallyTimeSpent" value="17246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -577,7 +583,9 @@
     <MESSAGE value="New Home, signup form" />
     <MESSAGE value="Models, Seeds, Migrations" />
     <MESSAGE value="Models, Seeds, Migrations, Use Ymoq DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Models, Seeds, Migrations, Use Ymoq DB" />
+    <MESSAGE value="Plugin.pho not conma php&#10;&#10;Add the Component" />
+    <MESSAGE value="Remove demo page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove demo page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -670,7 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/pages/home-old.htm">
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/home-old.htmlx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
