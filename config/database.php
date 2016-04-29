@@ -56,11 +56,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => $cleardb['host'],
-            'port'      => array_get($cleardb, 'port', '3306'),
-            'database'  => 'heroku_31f44afda16fa09',
-            'username'  => 'bc0dfdff63d1b5',
-            'password'  => 'a7a3b5be',
+            'host'      => 'ymoq.de',
+            'port'      => '3306',
+            'database'  => 'hackathon',
+            'username'  => 'hackathon',
+            'password'  => 'imcRf8AVBiXmoViw',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',

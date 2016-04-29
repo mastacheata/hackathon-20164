@@ -2,6 +2,18 @@ title = "Sign up"
 url = "/"
 layout = "default"
 ==
+<?php
+function onHandleSignup()
+{
+    $name = post('name');
+    $address = post('address');
+    $city = post('city');
+    $deviceId = post('deviceId');
+
+
+}
+?>
+==
 {{ form_open({ request: 'onHandleSignup' }) }}
 Name: <input type="text" name="name"/>
 Address: <input type="text" name="address"/>
