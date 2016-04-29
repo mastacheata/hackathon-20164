@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'key' => 'base64:yIXb7gV+oAlkL0+WVnkM8+laUA4PNRHBNP9uyuYrv6Y=',
+    'key' => 'yYOyVNyicCnG4pxKGTU5W0v7NLDe1Pzh',
 
     'cipher' => MCRYPT_RIJNDAEL_128,
 
