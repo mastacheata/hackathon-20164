@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b2652b1-7ceb-495f-82e6-d44398266d7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin,php.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/models/Temperature.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/models/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/updates/create_temperatures.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/updates/create_users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/updates/seed_temperatures_from_csv.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/updates/version.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/csv/Anlage1.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/csv/Anlage2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/csv/Anlage3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/csv/Anlage4.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/csv/Anlage5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/components/Map.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin,php.php" afterPath="$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/demo/pages/home.htm" afterPath="$PROJECT_DIR$/themes/demo/pages/home.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/demo/pages/signup.htm" afterPath="$PROJECT_DIR$/themes/demo/pages/signup.htm" />
     </list>
     <ignored path="hackathon-20164.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
               <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/october/demo/Plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-246">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,14 +70,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plugin,php.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin,php.php">
+      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/hackathon/heatmap/components/Map.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,6 +155,7 @@
         <option value="$PROJECT_DIR$/plugins/hackathon/heatmap/updates/create_temperatures.php" />
         <option value="$PROJECT_DIR$/plugins/hackathon/heatmap/updates/seed_temperatures_from_csv.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/plugins/hackathon/heatmap/components/Map.php" />
       </list>
     </option>
   </component>
@@ -333,26 +341,12 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon-20164" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon-20164" />
+              <option name="myItemId" value="october" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heatmap" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,10 +371,6 @@
               <option name="myItemId" value="heatmap" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="updates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -404,7 +394,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,7 +470,7 @@
       <option name="presentableId" value="Default" />
       <updated>1461948625821</updated>
       <workItem from="1461948627194" duration="6142000" />
-      <workItem from="1461957002484" duration="10285000" />
+      <workItem from="1461957002484" duration="10904000" />
     </task>
     <task id="LOCAL-00001" summary="DB details ClearDB">
       <created>1461953011958</created>
@@ -531,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461966665942</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Models, Seeds, Migrations, Use Ymoq DB">
+      <created>1461967327641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1461967327641</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16427000" />
+    <option name="totallyTimeSpent" value="17046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -579,7 +576,8 @@
     <MESSAGE value="Default layout no nav" />
     <MESSAGE value="New Home, signup form" />
     <MESSAGE value="Models, Seeds, Migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Models, Seeds, Migrations" />
+    <MESSAGE value="Models, Seeds, Migrations, Use Ymoq DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Models, Seeds, Migrations, Use Ymoq DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -688,24 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/pages/signup.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin,php.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/hackathon/heatmap/models/Temperature.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -802,6 +782,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/october/demo/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/signup.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hackathon/heatmap/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hackathon/heatmap/components/Map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
